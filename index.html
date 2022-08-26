@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NewProject</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Школа програмирование "Hello World"</h1>
+        <hr class="line">
+        <p class="text">Здравствуйте! Мы очень рады, что <i>Вы</i> решили присоединиться к нам! <br> Пожалуйста, заполните форму регистрации ниже
+        </p>
+
+        <form class="form" action="#">
+            <div class="action">
+
+                <a class="btn" href="in.html">Войти</a>
+                <a class="btn active" href="index.html">Регистрация</a>
+                
+            </div>
+            <p class="form_text">Придумай логин</p>
+            <input class="input" type="text" placeholder="Логин">
+            <p class="form_text">Придумай пароль</p>
+            <input class="input" type="password" placeholder="Пароль">
+            
+            <p class="form_text">Выберите пол</p>
+            <div class="box">
+                <input type="radio" name="gender">
+                <p class="tip">Мужской</p>
+                <input type="radio" name="gender">
+                <p class="tip">Женский</p>
+            </div>
+            <p class="form_text">Вберите желаемые курсы</p>
+            <div class="box">
+                <input type="checkbox">
+                <p class="tip">Fronted</p>
+                <input type="checkbox">
+                <p class="tip">Roblox</p>
+                <input type="checkbox">
+                <p class="tip">Figma</p>
+                <input type="checkbox">
+                <p class="tip">Scratch</p>
+                <input type="checkbox">
+                <p class="tip">Python</p>
+                <input type="checkbox">
+                <p class="tip">Unity</p>
+                <input type="checkbox">
+            </div>
+            <p class="form_text">Расскажи немного о себе, о своих достижениях и мечтах
+            </p>
+            <textarea class="message"  placeholder="Раскажи о себе!"></textarea>
+            <button type="submit" class="button">Зарегистрироватся</button>
+            <hr class="form_line">
+        </form>
+    </div>
+</body>
+</html>
